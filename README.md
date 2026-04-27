@@ -51,18 +51,12 @@ python3 BananaText.py --view filename.txt
 
 ## Install Desktop Shortcut (Linux)
 
-Copy the desktop file to your desktop:
 ```bash
-cp BananaText.desktop ~/Desktop/
-```
+# Copy to your desktop
+cp BananaText.desktop ~/
 
-Or to your applications:
-```bash
+# Or to applications
 cp BananaText.desktop ~/.local/share/applications/
-```
-
-Then update the desktop database:
-```bash
 update-desktop-database ~/.local/share/applications
 ```
 
@@ -70,12 +64,3 @@ update-desktop-database ~/.local/share/applications
 
 - Python 3.6+
 - curses (included in Python)
-
-On some systems you may need to install the curses library:
-```bash
-# Ubuntu/Debian
-sudo apt-get install libncurses5-dev
-
-# macOS
-brew install python3
-```
