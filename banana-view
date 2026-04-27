@@ -1,0 +1,7 @@
+#!/bin/bash
+# BananaText Viewer Launcher
+
+cd "$(dirname "$0")"
+
+echo "🍌 Loading BananaText Viewer..."
+python3 BananaText.py --view "$@"

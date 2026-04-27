@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BananaText Editor
+Comment=Rich Terminal Text Editor - Banana Themed
+Exec=python3 /full/path/to/BananaText.py %F
+Icon=accessories-text-editor
+Terminal=true
+Categories=Development;TextEditor;
+MimeType=text/plain;text/x-python;text/x-c++src;text/x-csrc;text/javascript;application/json;
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BananaText Viewer
+Comment=View Files with BananaText (read-only)
+Exec=python3 /full/path/to/BananaText.py --view %F
+Icon=accessories-text-editor
+Terminal=true
+Categories=Utility;Viewer;
+MimeType=text/plain;text/x-python;text/x-c++src;text/x-csrc;text/javascript;application/json;
