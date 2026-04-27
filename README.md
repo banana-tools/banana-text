@@ -64,3 +64,7 @@ update-desktop-database ~/.local/share/applications
 
 - Python 3.6+
 - curses (included in Python)
+
+
+## Issues
+Post any issues, ill try to fix it and you can create a branch and fix it and ask for a pull request if you want to
